@@ -11,6 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var whatnot: UIButton!
+    @IBOutlet weak var hahah: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -24,6 +25,7 @@ class ViewController: UIViewController {
 
     @IBAction func ouch(sender: AnyObject) {
         println("ouch")
+        hahah.text = "meh!"
     }
 
 }
