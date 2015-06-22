@@ -25,7 +25,7 @@ class ViewController: UIViewController {
 
     @IBAction func ouch(sender: AnyObject) {
         println("ouch")
-        hahah.text = "meh!"
+        hahah.text = hahah.text
     }
 
 }
