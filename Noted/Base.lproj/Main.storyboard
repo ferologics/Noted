@@ -51,6 +51,7 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="chillout" destination="sl7-rO-jWX" id="PtG-JK-AFx"/>
                         <outlet property="hahah" destination="n7m-XZ-cep" id="oMl-0c-FgD"/>
                         <outlet property="whatnot" destination="qFJ-vg-VzD" id="Cqy-93-uVz"/>
                     </connections>

@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var whatnot: UIButton!
     @IBOutlet weak var hahah: UILabel!
     
+    @IBOutlet weak var chillout: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -25,7 +27,7 @@ class ViewController: UIViewController {
 
     @IBAction func ouch(sender: AnyObject) {
         println("ouch")
-        hahah.text = hahah.text
+        hahah.text = chillout.text
     }
 
 }
