@@ -14,7 +14,6 @@
 		5BD33FE21B187F5D00A6CDE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD33FE11B187F5D00A6CDE9 /* AppDelegate.swift */; };
 		5BD33FE71B187F5D00A6CDE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BD33FE51B187F5D00A6CDE9 /* Main.storyboard */; };
 		5BD33FE91B187F5D00A6CDE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BD33FE81B187F5D00A6CDE9 /* Images.xcassets */; };
-		5BD33FEC1B187F5D00A6CDE9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BD33FEA1B187F5D00A6CDE9 /* LaunchScreen.xib */; };
 		5BD33FF81B187F5D00A6CDE9 /* MakeSchoolNotesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BD33FF71B187F5D00A6CDE9 /* MakeSchoolNotesTests.swift */; };
 		5BD3404B1B18825300A6CDE9 /* ConvenienceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD340411B18819B00A6CDE9 /* ConvenienceKit.framework */; };
 		5BD3404C1B18825300A6CDE9 /* ConvenienceKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD340411B18819B00A6CDE9 /* ConvenienceKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -22,6 +21,7 @@
 		5BD3405B1B1884D600A6CDE9 /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD340581B1884D600A6CDE9 /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		5BD3405C1B1884D600A6CDE9 /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD340591B1884D600A6CDE9 /* RealmSwift.framework */; };
 		5BD3405D1B1884D600A6CDE9 /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5BD340591B1884D600A6CDE9 /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FA151B341B3B0F160059D003 /* NoteDisplayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA151B331B3B0F160059D003 /* NoteDisplayViewController.swift */; };
 		FAF1EBAF1B39DC4E0087CCD7 /* NewNoteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAF1EBAE1B39DC4E0087CCD7 /* NewNoteViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -89,13 +89,13 @@
 		5BD33FE11B187F5D00A6CDE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5BD33FE61B187F5D00A6CDE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5BD33FE81B187F5D00A6CDE9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5BD33FEB1B187F5D00A6CDE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		5BD33FF11B187F5D00A6CDE9 /* MakeSchoolNotesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeSchoolNotesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5BD33FF61B187F5D00A6CDE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5BD33FF71B187F5D00A6CDE9 /* MakeSchoolNotesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeSchoolNotesTests.swift; sourceTree = "<group>"; };
 		5BD3403A1B18819B00A6CDE9 /* ConvenienceKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ConvenienceKit.xcodeproj; path = External/ConvenienceKit/ConvenienceKit.xcodeproj; sourceTree = "<group>"; };
 		5BD340581B1884D600A6CDE9 /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = ../Realm.framework; sourceTree = "<group>"; };
 		5BD340591B1884D600A6CDE9 /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RealmSwift.framework; path = ../RealmSwift.framework; sourceTree = "<group>"; };
+		FA151B331B3B0F160059D003 /* NoteDisplayViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoteDisplayViewController.swift; sourceTree = "<group>"; };
 		FAF1EBAE1B39DC4E0087CCD7 /* NewNoteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewNoteViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -132,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				5B7FD42C1B189D2C0088C25E /* NotesViewController.swift */,
+				FA151B331B3B0F160059D003 /* NoteDisplayViewController.swift */,
 				FAF1EBAE1B39DC4E0087CCD7 /* NewNoteViewController.swift */,
 			);
 			path = ViewControllers;
@@ -174,7 +175,6 @@
 				5BD33FE11B187F5D00A6CDE9 /* AppDelegate.swift */,
 				5BD33FE51B187F5D00A6CDE9 /* Main.storyboard */,
 				5BD33FE81B187F5D00A6CDE9 /* Images.xcassets */,
-				5BD33FEA1B187F5D00A6CDE9 /* LaunchScreen.xib */,
 				5BD33FDF1B187F5D00A6CDE9 /* Supporting Files */,
 			);
 			path = MakeSchoolNotes;
@@ -347,7 +347,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				5BD33FE71B187F5D00A6CDE9 /* Main.storyboard in Resources */,
-				5BD33FEC1B187F5D00A6CDE9 /* LaunchScreen.xib in Resources */,
 				5BD33FE91B187F5D00A6CDE9 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,6 +370,7 @@
 				5B7FD42F1B189D2C0088C25E /* NotesViewController.swift in Sources */,
 				5B7FD4351B18A1FC0088C25E /* NoteTableViewCell.swift in Sources */,
 				5B7FD4331B18A15D0088C25E /* Note.swift in Sources */,
+				FA151B341B3B0F160059D003 /* NoteDisplayViewController.swift in Sources */,
 				FAF1EBAF1B39DC4E0087CCD7 /* NewNoteViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -405,14 +405,6 @@
 				5BD33FE61B187F5D00A6CDE9 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		5BD33FEA1B187F5D00A6CDE9 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5BD33FEB1B187F5D00A6CDE9 /* Base */,
-			);
-			name = LaunchScreen.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
